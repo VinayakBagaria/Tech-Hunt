@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:minHeight="60dp"
+        android:minWidth="220dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Its an EMERGENCY!"
+        android:id="@+id/tvEm"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOW RUN!!"
+        android:textSize="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+    android:id="@+id/tvPercent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/progressBar1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="42dp"
+    android:text="0/ 100 %"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    />
+
+
+</RelativeLayout>
